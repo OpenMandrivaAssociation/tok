@@ -37,3 +37,10 @@ WIP, Pidor
 %autosetup -n %{name}-dev
 
 %build
+# who is that smart to droping good cmake build system and switch to almost not used qbs?
+qbs
+
+%install
+qbs install --install-root %{buildroot}
+
+%files
