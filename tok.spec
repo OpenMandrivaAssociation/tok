@@ -9,6 +9,7 @@ Url:            https://invent.kde.org/cblack/tok
 Source0:        https://invent.kde.org/network/tok/-/archive/dev/tok-dev.tar.bz2
 
 BuildRequires:  qbs
+BuildRequires:  qbs-devel
 BuildRequires:  cmake(ECM)
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  cmake(Qt5Core)
