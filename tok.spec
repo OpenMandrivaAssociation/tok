@@ -26,7 +26,7 @@ BuildRequires:  cmake(KF5SyntaxHighlighting)
 BuildRequires:  pkgconfig(libcrypto)
 BuildRequires:  pkgconfig(zlib)
 BuildRequires:  pkgconfig(icu-uc)
-BuildRequires:  cmake(rlottie)
+#BuildRequires:  cmake(rlottie)
 
 Requires:       kirigami2
 
